@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+body{
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo{
+  margin: 10px 0;
+  width: 120px;
+  background: white;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: space around;
+  flex-wrap: wrap;
+  
+  transform: rotate(5deg);
+  transition: 0.3s all ease-in-out;
+}
+
+.photo img{
+  flex-basis: 100%;
+  width: 100px;
+}
+
+.photo figcaption{
+  margin-top: 10px;
+}
+
+.photo:nth-child(even) {
+  transform: rotate(-2deg) scale(0.8);
+}
+
+.photo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+  <figure class="photo">
+    <img src= https://www.google.com/search?q=najs%C5%82odsze+zwierz%C4%99ta&tbm=isch&ved=2ahUKEwimiNSOitrpAhWQcZoKHUtQBN8Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnOgIIADoGCAAQBRAeOgYIABAKEBhQurUDWL-9A2Ck0ANoAXAAeAKAAWGIAZEKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=-obRXqajA5Dj6QTLoJH4DQ&bih=740&biw=1440#imgrc=OEQy6LPFzfR1nM
+         alt="Króliczek">
+    <figcaption>
+    Króliczek
+    </figcaption>
+  </figure>
+
+  <figure class="photo">
+    <img src=https://www.google.com/search?q=najs%C5%82odsze+zwierz%C4%99ta&tbm=isch&ved=2ahUKEwimiNSOitrpAhWQcZoKHUtQBN8Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnOgIIADoGCAAQBRAeOgYIABAKEBhQurUDWL-9A2Ck0ANoAXAAeAKAAWGIAZEKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=-obRXqajA5Dj6QTLoJH4DQ&bih=740&biw=1440#imgrc=pA7aL4H6ngtg0M
+         alt="Misiu">
+    <figcaption>
+    Misiu
+    </figcaption>
+  </figure>
+  
+  <figure class="photo">
+  <img src=https://www.google.com/search?q=najs%C5%82odsze+zwierz%C4%99ta&tbm=isch&ved=2ahUKEwimiNSOitrpAhWQcZoKHUtQBN8Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnOgIIADoGCAAQBRAeOgYIABAKEBhQurUDWL-9A2Ck0ANoAXAAeAKAAWGIAZEKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=-obRXqajA5Dj6QTLoJH4DQ&bih=740&biw=1440#imgrc=019dIQwkj5QMzM
+       alt="Sówka">
+    <figcaption>
+    Sówka
+    </figcaption>
+  </figure>
+  
+  <figure class="photo">
+  <img src==https://www.google.com/search?q=najs%C5%82odsze+zwierz%C4%99ta&tbm=isch&ved=2ahUKEwimiNSOitrpAhWQcZoKHUtQBN8Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnOgIIADoGCAAQBRAeOgYIABAKEBhQurUDWL-9A2Ck0ANoAXAAeAKAAWGIAZEKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=-obRXqajA5Dj6QTLoJH4DQ&bih=740&biw=1440#imgrc=019dIQwkj5QMzM
+       alt="Panda">
+    <figcaption>
+    Panda
+    </figcaption>
+  </figure>
+  
+  <figure class="photo">
+  <img src=https://www.google.com/search?q=najs%C5%82odsze+zwierz%C4%99ta&tbm=isch&ved=2ahUKEwimiNSOitrpAhWQcZoKHUtQBN8Q2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnOgIIADoGCAAQBRAeOgYIABAKEBhQurUDWL-9A2Ck0ANoAXAAeAKAAWGIAZEKkgECMTaYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img&ei=-obRXqajA5Dj6QTLoJH4DQ&bih=740&biw=1440#imgrc=ndXy10jlGg886M
+       alt="Żyrafka">
+  <figcaption>
+    Żyrafka
+    </figcaption>
+  </figure>
+    <body>
+</html>
+<!--boot js--><script id="jsbin-javascript" defer>// console.clear()
+
+</script>
